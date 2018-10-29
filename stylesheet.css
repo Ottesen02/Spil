@@ -222,3 +222,40 @@ body {
     left: 13vw;
     display: none;
 }
+
+/** KEYFRAMES **/
+
+@keyframes walk {
+    0% {
+        top: 10vw;
+        left: -10vw;
+    }
+
+    25% {
+        top: 8vw;
+        left: 0vw;
+    }
+
+    50% {
+        top: 10vw;
+        left: 10vw;
+    }
+
+    75% {
+        top: 12vw;
+        left: 20vw;
+    }
+
+    100% {
+        top: 10vw;
+        left: 30vw;
+    }
+}
+
+
+.walk {
+    animation-name: walk;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
