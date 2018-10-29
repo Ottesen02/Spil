@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    overflow: hidden
+}
+
+#screen {
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: relative;
+
+}
+
+#menu_background {
+    background-image: url(Spilelementer/Start%20sk%C3%A6rm.svg);
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+
+#game {
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+#game_background {
+    background-image: url(Spilelementer/Baggrund.svg);
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 0;
+}
+
+#game_foreground {
+    background-image: url(Spilelementer/Bar.svg);
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 0;
+}
+
+#gin {
+    background-image: url(Spilelementer/Gin.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 11vw;
+    height: 15vw;
+    z-index: 0;
+    top: 38vw;
+    left: 27vw;
+}
+
+#tonic {
+    background-image: url(Spilelementer/Tonic.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 23vw;
+    height: 20vw;
+    z-index: 0;
+    top: 35vw;
+    left: 2vw;
+}
+
+#lime {
+    background-image: url(Spilelementer/Lime.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 7vw;
+    height: 9vw;
+    z-index: 0;
+    top: 44vw;
+    left: 73vw;
+}
+
+#glas {
+    background-image: url(Spilelementer/Glas.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 16vw;
+    height: 18vw;
+    z-index: 0;
+    top: 36vw;
+    left: 83vw;
+}
+
+#points {
+    background-image: url(Spilelementer/Point.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    z-index: 0;
+    top: 33vw;
+    left: 38vw;
+}
+
+#energy {
+    background-image: url(Spilelementer/Liv.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    z-index: 0;
+    top: 32vw;
+    left: 48vw;
+}
+
+#time {
+    background-image: url(Spilelementer/Tid.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10vw;
+    height: 12vw;
+    z-index: 0;
+    top: 33vw;
+    left: 60vw;
+}
+
+#is {
+    background-image: url(Spilelementer/is.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 28vw;
+    height: 12vw;
+    z-index: 0;
+    top: 46vw;
+    left: 41vw;
+}
+
+#tandhjul {
+    background-image: url(Spilelementer/Tandhjul.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    z-index: 0;
+    top: 0vw;
+    left: 92vw;
+}
+
+#karakter {
+    background-image: url(Spilelementer/Glad%20sp%C3%B8gelse.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    z-index: 0;
+    top: 10vw;
+    left: 30vw;
+}
+
+#start {
+    background-image: url(Spilelementer/Start%20spil.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    z-index: 0;
+    top: 10vw;
+    left: 30vw;
+    display: none;
+}
+
+#settings {
+    background-image: url(Spilelementer/Settings.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45vw;
+    height: 30vw;
+    z-index: 0;
+    top: 5vw;
+    left: 30vw;
+    display: none;
+}
+
+#gameover {
+    background-image: url(Spilelementer/Artboard%2036.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75vw;
+    height: 50vw;
+    z-index: 0;
+    top: 10vw;
+    left: 13vw;
+    display: none;
+}
+
+#levelcomplete {
+    background-image: url(Spilelementer/game%20win.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75vw;
+    height: 50vw;
+    z-index: 0;
+    top: 10vw;
+    left: 13vw;
+    display: none;
+}
