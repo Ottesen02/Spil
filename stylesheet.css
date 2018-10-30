@@ -18,8 +18,8 @@ body {
     height: 56.25vw;
     margin: auto;
     position: absolute;
-    z-index: 0;
-    display: none;
+    z-index: 10;
+    visibility: show;
 }
 
 #game {
@@ -171,6 +171,35 @@ body {
     left: 30vw;
 }
 
+#karakter_mut {
+    background-image: url(Spilelementer/Not%20so%20happy.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    z-index: 0;
+    top: 10vw;
+    left: 30vw;
+    visibility: hidden;
+
+}
+
+#karakter_sur {
+    background-image: url(Spilelementer/Sad%20sp%C3%B8gelse.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    z-index: 0;
+    top: 10vw;
+    left: 30vw;
+    visibility: hidden;
+}
+
+
+
 #start {
     background-image: url(Spilelementer/Start%20spil.svg);
     background-size: 100%;
@@ -178,10 +207,11 @@ body {
     position: absolute;
     width: 15vw;
     height: 15vw;
-    z-index: 0;
-    top: 10vw;
-    left: 30vw;
-    display: none;
+    z-index: 11;
+    top: 33vw;
+    left: 74vw;
+    visibility: show;
+
 }
 
 #settings {
@@ -194,7 +224,7 @@ body {
     z-index: 0;
     top: 5vw;
     left: 30vw;
-    display: none;
+    visibility: hidden;
 }
 
 #gameover {
@@ -207,7 +237,7 @@ body {
     z-index: 0;
     top: 10vw;
     left: 13vw;
-    display: none;
+    visibility: hidden;
 }
 
 #levelcomplete {
@@ -220,7 +250,7 @@ body {
     z-index: 0;
     top: 10vw;
     left: 13vw;
-    display: none;
+    visibility: hidden;
 }
 
 /** KEYFRAMES **/
@@ -258,4 +288,49 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-duration: 3s;
+}
+
+@keyframes hover {
+    0% {
+        top: 10vw;
+        left: 30vw;
+    }
+
+    25% {
+        top: 11vw;
+        left: 31vw;
+    }
+
+    50% {
+        top: 12vw;
+        left: 30vw;
+    }
+
+    75% {
+        top: 11vw;
+        left: 29vw;
+    }
+
+    100% {
+        top: 10vw;
+        left: 30vw;
+    }
+}
+
+
+.hover {
+    animation-name: hover;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+
+
+.show{
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
 }
